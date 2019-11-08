@@ -147,7 +147,7 @@
 
 
 #timeline .lab h2::after {
-  Moooooo;
+  content = "Moooooo";
 }
 
 
