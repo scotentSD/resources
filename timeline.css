@@ -100,11 +100,13 @@ timeline_body {
   margin: 0;
   padding-bottom: 6px;
   line-height: 1rem;
+  colour: black;
 }
 @media (min-width: 480px) {
   #timeline .timeline-card .timeline_head h2 {
     font-size: 125%; /* was 165 and looked really big on bigger screen*/
-    line-height: 1.2rem;
+    line-height: 1.0rem;
+    colour: black;
   }
 }
 
@@ -151,7 +153,7 @@ timeline_body {
   background-color: #3ee9d1;
 }
 #timeline .other h2 { /* added for better contrast */
-  color: #000;
+  color: black;
 }
 #timeline .other .timeline_head::after {
   border-color: #3ee9d1;
@@ -162,7 +164,7 @@ timeline_body {
 }
 
 #timeline .lab h2 { /* added for better contrast */
-  color: #000;
+  color: white;
 }
 
 #timeline .lab .timeline_head::after {
@@ -173,7 +175,7 @@ timeline_body {
 }
 
 #timeline .online h2 { /* added for better contrast */
-  color: #000;
+  color: white;
 }
 
 #timeline .online .timeline_head::after {
@@ -184,7 +186,7 @@ timeline_body {
 }
 
 #timeline .partner h2 { /* added for better contrast */
-  color: #000;
+  color: white;
 }
 
 #timeline .partner .timeline_head::after {
@@ -198,7 +200,7 @@ margin-left: 0.5em;
 .issue {
     color: red;
     font-weight: bold;
-}4
+}
 
 h3 {
     color: black;
