@@ -15,6 +15,11 @@ timeline_body {
   font-family: Roboto;
 }
 
+#timeline {
+
+    font-family: Roboto;
+}
+
 #timeline .blackh2 { /* added for better contrast */
   color: #000;
 }
@@ -114,7 +119,7 @@ timeline_body {
   padding-bottom: 6px;
   line-height: 1rem;
   colour: black;
-  
+
 }
 @media (min-width: 480px) {
   #timeline .timeline-card .timeline_head h2 {
