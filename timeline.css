@@ -204,7 +204,7 @@ H3 {
 
 @media (min-width: 720px) { /*  for big screens  */
   #timeline .colour_key {
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 
