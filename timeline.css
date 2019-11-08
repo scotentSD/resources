@@ -15,7 +15,16 @@ timeline_body {
   font-family: Roboto;
 }
 
-strong {
+#timeline .blackh2 { /* added for better contrast */
+  color: #000;
+}
+
+
+#timeline .whiteh2 { /* added for better contrast */
+  color: white;
+}
+
+#timeline strong {
 	margin-top: 0.1em;
 	padding-top: 0.1em;
 	font-weight: bold;
@@ -73,9 +82,9 @@ strong {
   display: inline;
   float: left;
   margin: 15px;
-  padding: 10px;
-  font-size: 35px;
-  line-height: 35px;
+  padding: 30px;
+  font-size: 5em;
+  line-height: 7em;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
   color: white;
@@ -96,6 +105,7 @@ strong {
     line-height: 1.2rem;
   }
 }
+
 #timeline .timeline-card .timeline_head h2 span {
   display: block;
   font-size: 125% ; /* was 0.6rem; this is for mobile */
@@ -144,8 +154,6 @@ strong {
 #timeline .other .timeline_head::after {
   border-color: #3ee9d1;
 }
-
-
 
 #timeline .lab { /* purple lab research */
   background-color: #ce43eb;
