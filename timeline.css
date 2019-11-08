@@ -78,10 +78,9 @@ strong {
   line-height: 35px;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
-
-
-
+  color: white;
 }
+
 #timeline .timeline-card .timeline_head h2 {
   text-transform: uppercase;
   font-size: 200% ; /* was 1.3rem; this is for mobile */
@@ -208,8 +207,6 @@ H3 {
     margin-bottom: 0.4em;
     margin: auto;
     font-size: 0.7em;
-    color: white;
-    
 }
 
 @media (min-width: 480px) {  /*  for tablets */
