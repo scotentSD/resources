@@ -6,16 +6,7 @@
 }
 
 
-.timeline_box {
-  box-sizing: border-box;
-}
-
-#timeline strong {
-	margin-top: 0.1em;
-	padding-top: 0.1em;
-	font-weight: bold;
-	display: block;
-}
+.timeline_box {box-sizing: border-box;}
 
 #timeline {
   padding: 10px 0;
@@ -146,25 +137,11 @@
 }
 
 
-.h2_lab::after {
-  content : "Lab Testing";
-}
-
-.h2_a11y::after {
-  content : "Accessibility";
-}
-
-.h2_partner::after {
-  content : "Partner co-design and co-creation";
-}
-
-.h2_online::after {
-  content : "Online research and testing";
-}
-
-.h2_other::after {
-  content : "Events and other actvities";
-}
+.h2_lab::after {  content : "Lab Testing";}
+.h2_a11y::after {  content : "Accessibility";}
+.h2_partner::after {  content : "Partner co-design and co-creation";}
+.h2_online::after {  content : "Online research and testing";}
+.h2_other::after {  content : "Events and other actvities";}
 
 
 
