@@ -194,6 +194,7 @@ H3 {
     max-width: 94%;   /*  this is for mobile - same as timeline-card */
     z-index: 2;
     margin-bottom: 0.4em;
+    margin: auto;
 }
 
 @media (min-width: 480px) {  /*  for tablets */
