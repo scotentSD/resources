@@ -202,7 +202,7 @@ H3 {
 /* for the key */
 #timeline  .colour_key {
     border: 1px solid #000;
-    padding: 10px;
+    padding: 0px;
     max-width: 94%;   /*  this is for mobile - same as timeline-card */
     z-index: 2;
     margin-bottom: 0.4em;
