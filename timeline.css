@@ -133,21 +133,39 @@ strong {
 #timeline .other .head::after {
   border-color: #3ee9d1;
 }
+
+
+
 #timeline .lab { /* purple lab research */
   background-color: #ce43eb;
 }
+
+#timeline .lab h2 { /* added for better contrast */
+  color: #000;
+}
+
 #timeline .lab .head::after {
   border-color: #ce43eb;
 }
 #timeline .online { /* blue online research */
   background-color: #4d92eb;
 }
+
+#timeline .online h2 { /* added for better contrast */
+  color: #000;
+}
+
 #timeline .online .head::after {
   border-color: #4d92eb;
 }
 #timeline .partner { /* brown for partners */
   background-color: #935300;
 }
+
+#timeline .partner h2 { /* added for better contrast */
+  color: #000;
+}
+
 #timeline .partner .head::after {
   border-color: #935300;
 }
