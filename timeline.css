@@ -43,6 +43,12 @@ timeline_body {
   font-weight: 200;
   margin-bottom: 20px;
 }
+#timeline h2 {
+
+  margin-top: 0.2em;
+  margin-bottom: 0.1px;
+}
+
 #timeline p.leader {
   text-align: center;
   max-width: 90%;
@@ -108,6 +114,7 @@ timeline_body {
   padding-bottom: 6px;
   line-height: 1rem;
   colour: black;
+  
 }
 @media (min-width: 480px) {
   #timeline .timeline-card .timeline_head h2 {
