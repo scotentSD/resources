@@ -81,6 +81,10 @@ timeline_body {
 .timeline_number-box {
   display: inline;
   float: left;
+  margin: 0.1em;
+}
+
+.timeline_number-box span {
   margin-top: 0.1em;
   margin: 0.1em;
   padding: 0.1em;
@@ -91,6 +95,7 @@ timeline_body {
   background: rgba(0, 0, 0, 0.17);
   color: white;
 }
+
 
 #timeline .timeline-card .timeline_head h2 {
   text-transform: uppercase;
