@@ -60,14 +60,14 @@ strong {
   }
 }
 
-#timeline .timeline-card .head {
+#timeline .timeline-card .timeline_head {
   position: relative;
   display: flex;
   align-items: center;
   color: #fff;
   font-weight: 400;
 }
-#timeline .timeline-card .head .number-box {
+#timeline .timeline-card .timeline_head .number-box {
   display: inline;
   float: left;
   margin: 15px;
@@ -77,7 +77,7 @@ strong {
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
 }
-#timeline .timeline-card .head h2 {
+#timeline .timeline-card .timeline_head h2 {
   text-transform: uppercase;
   font-size: 200% ; /* was 1.3rem; this is for mobile */
   font-weight: inherit;
@@ -87,38 +87,38 @@ strong {
   line-height: 1rem;
 }
 @media (min-width: 480px) {
-  #timeline .timeline-card .head h2 {
+  #timeline .timeline-card .timeline_head h2 {
     font-size: 125%; /* was 165 and looked really big on bigger screen*/
     line-height: 1.2rem;
   }
 }
-#timeline .timeline-card .head h2 span {
+#timeline .timeline-card .timeline_head h2 span {
   display: block;
   font-size: 125% ; /* was 0.6rem; this is for mobile */
   margin: 0;
 }
 @media (min-width: 480px) {
-  #timeline .timeline-card .head h2 span {
+  #timeline .timeline-card .timeline_head h2 span {
     font-size: 1rem; /* was 1.2 I've reduced so there is a difference between the date and the title? */
   }
 }
-#timeline .timeline-card .body {
+#timeline .timeline-card .timeline_body {
   background: #fff;
   border: 1px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
   padding: 15px;
 }
 @media (min-width: 9000px) {
-  #timeline .timeline-card .body {
+  #timeline .timeline-card .timeline_body {
     height: 315px;
   }
 }
-#timeline .timeline-card .body p {
+#timeline .timeline-card .timeline_body p {
   /* removed because it made paragraph smaller than bullet list was:  font-size: 14px; */
   line-height: 18px;
   margin-bottom: 15px;
 }
-#timeline .timeline-card .body img {
+#timeline .timeline-card .timeline_body img {
   display: block;
   width: 100%;
 }
@@ -128,7 +128,7 @@ strong {
 #timeline .ally h2 { /* added for better contrast */
   color: #000;
 }
-#timeline .ally .head::after {
+#timeline .ally .timeline_head::after {
   border-color: #f5c44b;
 }
 #timeline .other { /* greenish blue - events */
@@ -137,7 +137,7 @@ strong {
 #timeline .other h2 { /* added for better contrast */
   color: #000;
 }
-#timeline .other .head::after {
+#timeline .other .timeline_head::after {
   border-color: #3ee9d1;
 }
 
@@ -151,7 +151,7 @@ strong {
   color: #000;
 }
 
-#timeline .lab .head::after {
+#timeline .lab .timeline_head::after {
   border-color: #ce43eb;
 }
 #timeline .online { /* blue online research */
@@ -162,7 +162,7 @@ strong {
   color: #000;
 }
 
-#timeline .online .head::after {
+#timeline .online .timeline_head::after {
   border-color: #4d92eb;
 }
 #timeline .partner { /* brown for partners */
@@ -173,7 +173,7 @@ strong {
   color: #000;
 }
 
-#timeline .partner .head::after {
+#timeline .partner .timeline_head::after {
   border-color: #935300;
 }
 
