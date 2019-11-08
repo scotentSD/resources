@@ -6,27 +6,8 @@
 }
 
 
-timeline_box {
+.timeline_box {
   box-sizing: border-box;
-}
-
-/* Fonts */
-timeline_body {
-  font-family: Roboto;
-}
-
-#timeline {
-
-    font-family: Roboto;
-}
-
-#timeline .blackh2 { /* added for better contrast */
-  color: #000;
-}
-
-
-#timeline .whiteh2 { /* added for better contrast */
-  color: white;
 }
 
 #timeline strong {
@@ -38,9 +19,10 @@ timeline_body {
 
 #timeline {
   padding: 10px 0;
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+  font-family: Roboto;
 }
 #timeline h1 {
   text-align: center;
