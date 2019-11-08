@@ -125,8 +125,13 @@
   background: #fff;
   border: 5px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
+  border-bottom: 2px;
+  border-style: outset;
   padding: 15px;
+  margin-bottom: 0.2em;
 }
+
+
 @media (min-width: 9000px) {
   #timeline .timeline-card .timeline_body {
     height: 315px;
