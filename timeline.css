@@ -1,0 +1,199 @@
+/* Border Box */
+timeline_box {
+  box-sizing: border-box;
+}
+
+/* Fonts */
+timeline_body {
+  font-family: Roboto;
+}
+
+strong {
+	margin-top: 0.1em;
+	padding-top: 0.1em;
+	font-weight: bold;
+	display: block;
+}
+
+#timeline {
+  padding: 100px 0;
+  background: #f7f7f7;
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+}
+#timeline h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+#timeline p.leader {
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+#timeline .timeline-card {
+  position: relative;
+  display: block;
+  margin: 10px auto 20px;
+  max-width: 94%;
+  z-index: 2;
+}
+@media (min-width: 480px) {
+  #timeline .timeline-card {
+    max-width: 80%;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  }
+}
+@media (min-width: 720px) {
+  #timeline .timeline-card {
+    max-width: 80%;
+  }
+}
+
+#timeline .timeline-card .head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+}
+#timeline .timeline-card .head .number-box {
+  display: inline;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.17);
+}
+#timeline .timeline-card .head h2 {
+  text-transform: uppercase;
+  font-size: 200% ; /* was 1.3rem; this is for mobile */
+  font-weight: inherit;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 6px;
+  line-height: 1rem;
+}
+@media (min-width: 480px) {
+  #timeline .timeline-card .head h2 {
+    font-size: 125%; /* was 165 and looked really big on bigger screen*/
+    line-height: 1.2rem;
+  }
+}
+#timeline .timeline-card .head h2 span {
+  display: block;
+  font-size: 125% ; /* was 0.6rem; this is for mobile */
+  margin: 0;
+}
+@media (min-width: 480px) {
+  #timeline .timeline-card .head h2 span {
+    font-size: 1rem; /* was 1.2 I've reduced so there is a difference between the date and the title? */
+  }
+}
+#timeline .timeline-card .body {
+  background: #fff;
+  border: 1px solid rgba(191, 191, 191, 0.4);
+  border-top: 0;
+  padding: 15px;
+}
+@media (min-width: 9000px) {
+  #timeline .timeline-card .body {
+    height: 315px;
+  }
+}
+#timeline .timeline-card .body p {
+  /* removed because it made paragraph smaller than bullet list was:  font-size: 14px; */
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+#timeline .timeline-card .body img {
+  display: block;
+  width: 100%;
+}
+#timeline .a11y { /* yellow - accessibility research */
+  background-color: #f5c44b;
+}
+#timeline .ally h2 { /* added for better contrast */
+  color: #000;
+}
+#timeline .ally .head::after {
+  border-color: #f5c44b;
+}
+#timeline .other { /* greenish blue - events */
+  background-color: #3ee9d1;
+}
+#timeline .other h2 { /* added for better contrast */
+  color: #000;
+}
+#timeline .other .head::after {
+  border-color: #3ee9d1;
+}
+#timeline .lab { /* purple lab research */
+  background-color: #ce43eb;
+}
+#timeline .lab .head::after {
+  border-color: #ce43eb;
+}
+#timeline .online { /* blue online research */
+  background-color: #4d92eb;
+}
+#timeline .online .head::after {
+  border-color: #4d92eb;
+}
+#timeline .partner { /* brown for partners */
+  background-color: #935300;
+}
+#timeline .partner .head::after {
+  border-color: #935300;
+}
+
+.in_card {
+margin-left: 0.5em;
+}
+
+.issue {
+    color: red;
+    font-weight: bold;
+}
+
+H3 {
+    color: black;
+    font-weight: 900;
+    font-size: 1.1em;
+    padding-bottom: 0.2em;
+
+}
+
+/* for the key */
+#timeline  .key {
+    border: 1px solid #000;
+    padding: 10px;
+    max-width: 94%;   /*  this is for mobile - same as timeline-card */
+    z-index: 2;
+}
+
+@media (min-width: 480px) {  /*  for tablets */
+  #timeline .key {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 720px) { /*  for big screens  */
+  #timeline .key {
+    max-width: 40%;
+  }
+}
+
+#timeline .key p {
+    margin: 4px 0;
+}
+
+#timeline .key span {
+    padding: 0 10px;
+    margin: 2px 0;
+}
