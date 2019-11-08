@@ -143,11 +143,11 @@ timeline_body {
 #timeline .a11y { /* yellow - accessibility research */
   background-color: #f5c44b;
 }
-#timeline .ally h2 { /* added for better contrast */
+#timeline .a11y h2 { /* added for better contrast */
   color: black;
 }
 
-#timeline .ally .timeline_head::after {
+#timeline .a11y .timeline_head::after {
   border-color: #f5c44b;
 }
 #timeline .other { /* greenish blue - events */
