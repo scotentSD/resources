@@ -68,7 +68,8 @@ strong {
   color: #fff;
   font-weight: 400;
 }
-#timeline .timeline-card .timeline_head .number-box {
+
+.timeline_number-box {
   display: inline;
   float: left;
   margin: 15px;
@@ -77,6 +78,9 @@ strong {
   line-height: 35px;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
+
+
+
 }
 #timeline .timeline-card .timeline_head h2 {
   text-transform: uppercase;
