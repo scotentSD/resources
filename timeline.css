@@ -146,6 +146,16 @@
 }
 
 
+#timeline .lab h2::after {
+  Moooooo;
+}
+
+
+
+
+
+
+
 @media (min-width: 9000px) {
   #timeline .timeline-card .timeline_body {
     height: 315px;
