@@ -105,7 +105,7 @@ strong {
 }
 #timeline .timeline-card .timeline_body {
   background: #fff;
-  border: 1px solid rgba(191, 191, 191, 0.4);
+  border: 5px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
   padding: 15px;
 }
