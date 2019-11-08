@@ -144,8 +144,9 @@ timeline_body {
   background-color: #f5c44b;
 }
 #timeline .ally h2 { /* added for better contrast */
-  color: #000;
+  color: black;
 }
+
 #timeline .ally .timeline_head::after {
   border-color: #f5c44b;
 }
