@@ -146,8 +146,8 @@
 }
 
 
-#timeline .lab h2::after {
-  content = "Moooooo";
+#timeline .h2_lab::after {
+  content = "Lab Testing";
 }
 
 
