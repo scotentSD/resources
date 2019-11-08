@@ -147,23 +147,23 @@
 
 
 .h2_lab::after {
-  content = "Lab Testing";
+  content : "Lab Testing";
 }
 
 .h2_a11y::after {
-  content = "Accessibility";
+  content : "Accessibility";
 }
 
 .h2_partner::after {
-  content = "Partner co-design and co-creation";
+  content : "Partner co-design and co-creation";
 }
 
 .h2_online::after {
-  content = "Online research and testing";
+  content : "Online research and testing";
 }
 
 .h2_other::after {
-  content = "Events and other actvities";
+  content : "Events and other actvities";
 }
 
 
