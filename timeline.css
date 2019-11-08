@@ -81,19 +81,21 @@ timeline_body {
 .timeline_number-box {
   display: inline;
   float: left;
-  margin: 0.1em;
-}
-
-.timeline_number-box span {
   margin-top: 0.1em;
   margin: 0.1em;
   padding: 0.1em;
   padding-top: 0.2em;
-  font-size: 3em;
-  line-height: 1.2em;
-  font-weight: 600;
+
+
+
+}
+
+.timeline_number-box span {
   background: rgba(0, 0, 0, 0.17);
-  color: white;
+    color: white;
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: 600;
 }
 
 
