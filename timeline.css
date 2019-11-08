@@ -130,11 +130,11 @@
     font-size: 1rem; /* was 1.2 I've reduced so there is a difference between the date and the title? */
   }
 }
-#timeline .timeline-card .timeline_body {
+.timeline_body {
   background: #fff;
-  border: 5px solid rgba(191, 191, 191, 0.4);
-  border-top: 0;
-  border-bottom: 2px;
+  border-right: 2px solid rgba(191, 191, 191, 0.4);
+  border-left:  2px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 2px solid rgba(191, 191, 191, 0.4);
   border-style: outset;
   padding: 15px;
   margin-bottom: 0.2em;
