@@ -107,11 +107,11 @@
 
 
 
-.type_lab::after {  content : "Lab Testing";}
-.type_a11y::after {  content : "Accessibility";}
-.type_partner::after {  content : "Partner co-design and co-creation";}
-.type_online::after {  content : "Online research and testing";}
-.type_other::after {  content : "Events, F2F and other actvities";}
+.type_lab::after {  content : "LAB TESTING";}
+.type_a11y::after {  content : "ACCESSIBILITY";}
+.type_partner::after {  content : "PARTNER CO-CREATION AND CO-DESIGN";}
+.type_online::after {  content : "ONLINE RESEARCH AND TESTING";}
+.type_other::after {  content : "EVENTS, F2F AND OTHER ACTIVITIES";}
 
 /*  Set the text collour for post TYPE */
 .type_lab { color: white; font-weight: 900; font-size: 1.4em; padding-bottom: 0.8em;}
