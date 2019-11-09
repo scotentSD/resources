@@ -45,14 +45,23 @@
 #timeline .timeline-card {
   position: relative;
   display: block;
-  margin: 5px auto 20px;
+  margin: 0px auto 20px;
   max-width: 94%;
   z-index: 2;
   display: block;
   padding: 0.3em;
-  box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.27);
 }
-
+@media (min-width: 480px) {
+  #timeline .timeline-card {
+    max-width: 60%;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  }
+}
+@media (min-width: 720px) {
+  #timeline .timeline-card {
+    max-width: 60%;
+  }
+}
 
 #timeline .timeline-card .timeline_head {
   position: relative;
@@ -109,7 +118,11 @@
   margin: 0;
   padding: 0;
 }
-
+@media (min-width: 480px) {
+  #timeline .timeline-card .timeline_head h2 span {
+    font-size: 1rem; /* was 1.2 I've reduced so there is a difference between the date and the title? */
+  }
+}
 .timeline_body {
   background: #fff;
   border-right: 1px solid rgba(191, 191, 191, 0.4);
@@ -139,7 +152,11 @@
 
 
 
-
+@media (min-width: 9000px) {
+  #timeline .timeline-card .timeline_body {
+    height: 315px;
+  }
+}
 #timeline .timeline-card .timeline_body p {
   /* removed because it made paragraph smaller than bullet list was:  font-size: 14px; */
   line-height: 18px;
@@ -232,7 +249,17 @@ h3 {
      line-height: 1.1em;
 }
 
+@media (min-width: 480px) {  /*  for tablets */
+  #timeline .colour_key {
+    max-width: 80%;
+  }
+}
 
+@media (min-width: 720px) { /*  for big screens  */
+  #timeline .colour_key {
+    max-width: 60%;
+  }
+}
 
 #timeline .colour_key p {
     margin: 1px 0;
