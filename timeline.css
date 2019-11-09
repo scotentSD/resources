@@ -107,12 +107,12 @@
 
 
 
-/* Set the colours for the post .type_ers */?
-#timeline .lab { background-color: #ce43eb;}/* purple lab research */
-#timeline .partner { background-color: #935300;}/* brown for partners */
-#timeline .online { background-color: #4d92eb;}/* blue online research */
-#timeline .other { background-color: #3ee9d1;}/* greenish blue - events */
-#timeline .a11y { background-color: #f5c44b;}/* greenish blue - events */
+/* Set the colours for the post .type_ers */
+#timeline .lab { background-color: #ce43eb;} /* purple lab research */
+#timeline .partner { background-color: #935300;} /* brown for partners */
+#timeline .online { background-color: #4d92eb;} /* blue online research */
+#timeline .other { background-color: #3ee9d1;} /* greenish blue - events */
+#timeline .a11y { background-color: #f5c44b;} /* greenish blue - events */
 
 /* Set teh TYPE text for the post .type_ers  */
 .type_lab::after {  content : "Lab Testing";}
