@@ -131,10 +131,17 @@
 .h2_other::after {  content : "Events and other actvities";}
 
 .h2_lab {  color: white;}
-.h2_a11y {  color: white;}
-.h2_partner {  content : "Partner co-design and co-creation";}
-.h2_online {  content : "Online research and testing";}
-.h2_other {  content : "Events and other actvities";}
+.h2_partner {  color: white;}
+.h2_online {  color: white;}
+.h2_other {  color: black;}
+.h2_a11y {  color: black;}
+
+.h3_lab {  color: white;}
+.h3_partner {  color: white;}
+.h3_online {  color: white;}
+.h3_other {  color: black;}
+.h3_a11y {  color: black;}
+
 
 
 
