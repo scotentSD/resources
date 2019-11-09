@@ -1,13 +1,10 @@
 
 /* Border Box */
-
 * {
   box-sizing: border-box;
 }
 
-
-.timeline_box {box-sizing: border-box;}
-
+/* Generic stuff */
 #timeline {
   padding: 10px 0;
   /* background: #f7f7f7; */
@@ -22,19 +19,15 @@
   margin-bottom: 20px;
 }
 #timeline h2 {
-
   margin-top: 0.4em;
   margin-bottom: 0.1px;
   line-height: 1.2em;
 }
-
 #timeline h3 {
   margin-top: 0.1em;
   margin-bottom: 0.1em;
   color: white;
 }
-
-
 #timeline p.leader {
   text-align: center;
   max-width: 90%;
@@ -42,7 +35,10 @@
   margin-bottom: 45px;
 }
 
+
+/* Timeline POST CARD stuff */
 #timeline .timeline-card {
+box-sizing: border-box;
   position: relative;
   display: block;
   margin: 5px auto 20px;
@@ -52,8 +48,6 @@
   padding: 0.3em;
   box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.27);
 }
-
-
 #timeline .timeline-card .timeline_head {
   position: relative;
   display: flex;
@@ -62,7 +56,6 @@
   font-weight: 400;
 
 }
-
 .timeline_number-box {
   display: inline;
   float: left;
@@ -70,11 +63,7 @@
   margin: 0.1em;
   padding: 0.1em;
   padding-top: 0.2em;
-
-
-
 }
-
 .timeline_number-box span {
   background: rgba(0, 0, 0, 0.17);
     color: white;
@@ -82,8 +71,6 @@
     line-height: 1.2em;
     font-weight: 600;
 }
-
-
 #timeline .timeline-card .timeline_head h2 {
   text-transform: uppercase;
   font-size: 200% ; /* was 1.3rem; this is for mobile */
@@ -93,23 +80,13 @@
   padding-bottom: 6px;
   line-height: 1rem;
   colour: black;
-
 }
-@media (min-width: 480px) {
-  #timeline .timeline-card .timeline_head h2 {
-    font-size: 125%; /* was 165 and looked really big on bigger screen*/
-    line-height: 1.0rem;
-    colour: black;
-  }
-}
-
 #timeline .timeline-card .timeline_head h2 span {
   display: block;
   font-size: 125% ; /* was 0.6rem; this is for mobile */
   margin: 0;
   padding: 0;
 }
-
 .timeline_body {
   background: #fff;
   border-right: 1px solid rgba(191, 191, 191, 0.4);
@@ -124,27 +101,34 @@
 }
 
 
+
+/* Set the colours for the post headers */?
+#timeline .lab {   background-color: #ce43eb;}/* purple lab research */
+#timeline .partner {   background-color: #935300;}/* brown for partners */
+#timeline .online {   background-color: #4d92eb;}/* blue online research */
+#timeline .other {   background-color: #3ee9d1;}/* greenish blue - events */
+#timeline .a11y {   background-color: #f5c44b;}/* greenish blue - events */
+
+/* Set teh TYPE text for the post headers  */
 .h2_lab::after {  content : "Lab Testing";}
 .h2_a11y::after {  content : "Accessibility";}
 .h2_partner::after {  content : "Partner co-design and co-creation";}
 .h2_online::after {  content : "Online research and testing";}
-.h2_other::after {  content : "Events and other actvities";}
+.h2_other::after {  content : "Events, F2F and other actvities";}
 
-.h2_lab {  color: white;}
-.h2_partner {  color: white;}
-.h2_online {  color: white;}
-.h2_other {  color: black;}
-.h2_a11y {  color: black;}
+/*  Set the text collour for post TYPE */
+.h2_lab { color: white;}
+.h2_partner { color: white;}
+.h2_online { color: white;}
+.h2_other { color: black;}
+.h2_a11y { color: black;}
 
-.h3_lab {  color: white;}
-.h3_partner {  color: white;}
-.h3_online {  color: white;}
-.h3_other {  color: black;}
-.h3_a11y {  color: black;}
-
-
-
-
+/*  Set the text colour for teh post DATE */
+.h3_lab { color: white;}
+.h3_partner { color: white;}
+.h3_online { color: white;}
+.h3_other { color: black;}
+.h3_a11y { color: black;}
 
 
 #timeline .timeline-card .timeline_body p {
@@ -156,59 +140,14 @@
   display: block;
   width: 100%;
 }
-#timeline .a11y { /* yellow - accessibility research */
-  background-color: #f5c44b;
-}
-#timeline .a11y h2 { /* added for better contrast */
-  color: black;
-}
 
-#timeline .a11y .timeline_head::after {
-  border-color: #f5c44b;
-}
-#timeline .other { /* greenish blue - events */
-  background-color: #3ee9d1;
-}
-#timeline .other h2 { /* added for better contrast */
-  color: black;
-}
-#timeline .other .timeline_head::after {
-  border-color: #3ee9d1;
-}
 
-#timeline .lab { /* purple lab research */
-  background-color: #ce43eb;
-}
 
-#timeline .lab h2 { /* added for better contrast */
-  color: white;
-}
 
-#timeline .lab .timeline_head::after {
-  border-color: #ce43eb;
-}
-#timeline .online { /* blue online research */
-  background-color: #4d92eb;
-}
 
-#timeline .online h2 { /* added for better contrast */
-  color: white;
-}
 
-#timeline .online .timeline_head::after {
-  border-color: #4d92eb;
-}
-#timeline .partner { /* brown for partners */
-  background-color: #935300;
-}
 
-#timeline .partner h2 { /* added for better contrast */
-  color: white;
-}
 
-#timeline .partner .timeline_head::after {
-  border-color: #935300;
-}
 
 .in_card {
 margin-left: 0.5em;
@@ -236,7 +175,7 @@ h3 {
     margin-bottom: 0.4em;
     margin: auto;
     font-size: 0.7em;
-     line-height: 1.1em;
+    line-height: 1.1em;
 }
 
 
