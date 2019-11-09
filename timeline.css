@@ -1,6 +1,6 @@
 
 /* Border Box */
-* {
+.fleeb{
   box-sizing: border-box;
 }
 
