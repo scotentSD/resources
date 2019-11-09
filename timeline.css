@@ -55,6 +55,12 @@
     margin: 2px 0;
 }
 
+/* */
+.timeline_ul{
+ margin-left: 0px;
+ padding-left: 0px;
+}
+
 /* Timeline POST CARD stuff */
 #timeline .timeline-card {
   box-sizing: border-box;
