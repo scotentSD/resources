@@ -43,7 +43,7 @@
     max-width: 94%;   /*  this is for mobile - same as timeline-card */
     z-index: 2;
     margin-bottom: 0.4em;
-    margin: auto;
+    margin-left: 0.2em;
     font-size: 0.7em;
     line-height: 1.1em;
 }
@@ -66,7 +66,9 @@
   box-sizing: border-box;
   position: relative;
   display: block;
-  margin: 20px auto 20px;
+  margin-left: 0.2em;
+  margin-bottom: 0.2em
+
   max-width: 94%;
   z-index: 2;
   display: block;
