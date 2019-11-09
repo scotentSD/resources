@@ -72,6 +72,7 @@
   -webkit-box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
   -moz-box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
   box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
+  padding-left: 1.0em;
 }
 .timeline_body {
   background: #fff;
