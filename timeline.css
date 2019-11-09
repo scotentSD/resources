@@ -108,11 +108,11 @@
 
 
 /* Set the colours for the post headers */?
-#timeline .lab {   background-color: #ce43eb;}/* purple lab research */
-#timeline .partner {   background-color: #935300;}/* brown for partners */
-#timeline .online {   background-color: #4d92eb;}/* blue online research */
-#timeline .other {   background-color: #3ee9d1;}/* greenish blue - events */
-#timeline .a11y {   background-color: #f5c44b;}/* greenish blue - events */
+#timeline .lab { background-color: #ce43eb;}/* purple lab research */
+#timeline .partner { background-color: #935300;}/* brown for partners */
+#timeline .online { background-color: #4d92eb;}/* blue online research */
+#timeline .other { background-color: #3ee9d1;}/* greenish blue - events */
+#timeline .a11y { background-color: #f5c44b;}/* greenish blue - events */
 
 /* Set teh TYPE text for the post headers  */
 .h2_lab::after {  content : "Lab Testing";}
@@ -133,7 +133,7 @@
 .h3_partner { color: white;}
 .h3_online { color: white;}
 .h3_other { color: black;}
-.h3_a11y { color: black;}
+.h3_a11y { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
 
 /* Timeline number box  */
 .timeline_number-box {
