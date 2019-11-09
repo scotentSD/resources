@@ -61,9 +61,9 @@
   padding-bottom: 0.8em;
 }
 .timeline_head {  padding-left: 0.2em;
-  -webkit-box-shadow: 0px -4px 5px 1px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px -4px 5px 1px rgba(0,0,0,0.43);
-  box-shadow: 0px -4px 5px 1px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
+  box-shadow: 0px -1px 5px 1px rgba(0,0,0,0.43);
 }
 .timeline_body {
   background: #fff;
@@ -79,9 +79,9 @@
   padding-right: 0.2em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
-  -webkit-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.43);
-  box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.43);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.43);
 
 }
 
