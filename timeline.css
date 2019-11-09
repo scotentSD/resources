@@ -28,32 +28,6 @@
   margin-bottom: 0.1em;
   color: white;
 }
-#timeline p.leader {
-  text-align: center;
-  max-width: 90%;
-  margin: auto;
-  margin-bottom: 45px;
-}
-
-
-/* for the key */
-#timeline  .colour_key {
-    border: 1px transparent #000;
-    padding: 0px;
-    max-width: 94%;   /*  this is for mobile - same as timeline-card */
-    z-index: 2;
-    margin-bottom: 0.4em;
-    margin-left: 0.2em;
-    font-size: 0.85em;
-    line-height: 1.1em;
-}
-#timeline .colour_key p {
-    margin: 1px 0;
-}
-#timeline .colour_key span {
-    padding: 1px 10px;
-    margin: 2px 0;
-}
 
 /* */
 .timeline_ul{
@@ -62,7 +36,7 @@
 }
 
 /* Timeline POST CARD stuff */
-.timeline-card {
+.timeline_card {
   position: relative;
   display: block;
   margin-left: 0.2em;
@@ -72,30 +46,6 @@
   z-index: 2;
   padding-bottom: 0.2em;
 }
-.timeline-card .timeline_.type_ {
-  position: relative;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-weight: 400;
-}
-.timeline-card .timeline_.type_ h2 {
-  text-transform: uppercase;
-  font-size: 200% ; /* was 1.3rem; this is for mobile */
-  font-weight: inherit;
-  letter-spacing: 2px;
-  margin: 0;
-  padding-bottom: 6px;
-  line-height: 1rem;
-  colour: black;
-}
-.timeline-card .timeline_.type_ h2 span {
-  display: block;
-  font-size: 125% ; /* was 0.6rem; this is for mobile */
-  margin: 0;
-  padding: 0;
-}
-
 
 .timeline_head {  padding-left: 0.2em; }
 .timeline_body {
