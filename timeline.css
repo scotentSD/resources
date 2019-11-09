@@ -67,9 +67,6 @@
 }
 .timeline_body {
   background: #fff;
-  border-right: 1px solid rgba(191, 191, 191, 0.4);
-  border-left:  1px solid rgba(191, 191, 191, 0.4);
-  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
   border-top: 0px;
   padding: 15px;
   margin-bottom: 0.0em;
