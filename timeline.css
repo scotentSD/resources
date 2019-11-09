@@ -70,9 +70,9 @@
   max-width: 94%;
   z-index: 2;
   padding-bottom: 0.2em;
-  -webkit-box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.43);
-  -moz-box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.43);
-  box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.43);
+  -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.43);
+  -moz-box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.43);
+  box-shadow: inset 0px 0px 3x 2px rgba(0,0,0,0.43);
 }
 .timeline-card .timeline_.type_ {
   position: relative;
