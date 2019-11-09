@@ -42,6 +42,10 @@
     line-height: 0.8em;
 }
 
+#timeline  .colour_key p {
+    margin-bottom: 0.1em;
+}
+
 
 /* UL that hosts teh Post Cards */
 .timeline_ul{
