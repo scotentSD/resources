@@ -115,25 +115,25 @@
 #timeline .a11y { background-color: #f5c44b;}/* greenish blue - events */
 
 /* Set teh TYPE text for the post headers  */
-.h2_lab::after {  content : "Lab Testing";}
-.h2_a11y::after {  content : "Accessibility";}
-.h2_partner::after {  content : "Partner co-design and co-creation";}
-.h2_online::after {  content : "Online research and testing";}
-.h2_other::after {  content : "Events, F2F and other actvities";}
+.h4_lab::after {  content : "Lab Testing";}
+.h4_a11y::after {  content : "Accessibility";}
+.h4_partner::after {  content : "Partner co-design and co-creation";}
+.h4_online::after {  content : "Online research and testing";}
+.h4_other::after {  content : "Events, F2F and other actvities";}
 
 /*  Set the text collour for post TYPE */
-.h2_lab { color: white;}
-.h2_partner { color: white;}
-.h2_online { color: white;}
-.h2_other { color: black;}
-.h2_a11y { color: black;}
+.h4_lab { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
+.h4_partner { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
+.h4_online { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
+.h4_other { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
+.h4_a11y { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
 
 /*  Set the text colour for teh post DATE */
-.h3_lab { color: white;}
-.h3_partner { color: white;}
-.h3_online { color: white;}
-.h3_other { color: black;}
-.h3_a11y { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.2em;}
+.h5_lab { color: white;}
+.h5_partner { color: white;}
+.h5_online { color: white;}
+.h5_other { color: black;}
+.h5_a11y { color: black; }
 
 /* Timeline number box  */
 .timeline_number-box {
