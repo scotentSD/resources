@@ -35,7 +35,8 @@
 
    width: 40em;
    margin: 0 auto;
-
+   display: inline;
+   float: both;
 
     border: 0px transparent #000;
     padding: 0px;
