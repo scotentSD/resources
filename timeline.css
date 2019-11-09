@@ -156,7 +156,9 @@
     color: white;
     font-size: 2em;
     line-height: 2.1em;
-    font-weight: 800;
+    font-weight: 600;
+    height: 90%;
+    float: left;
 }
 
 /* timline card body */
