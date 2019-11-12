@@ -44,12 +44,10 @@
     font-size: 0.8em;
     line-height: 0.8em;
 }
-
 #timeline .colour_key_heading {
     text-align: left;
     font-weight: bold;
 }
-
 #timeline  .colour_key p {
     margin-bottom: 0.0em;
     margin-bottom: 0.0em;
@@ -101,6 +99,9 @@
 
 }
 
+.timeline_body p {
+  margin-top: 0.2em;
+}
 
 
 
