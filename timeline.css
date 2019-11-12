@@ -181,3 +181,7 @@
   transition-timing-function: ease;
   width: auto;
 }
+
+.yellow_highlight.highlighted {
+  background-position:-100%;
+}
