@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+#container_wide {
+margin-left: 5em;
+margin-right: 5em;
+width: 98%;
+}
+
+
 /* Generic stuff */
 #timeline {
   padding: 10px 0;
