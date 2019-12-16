@@ -13,7 +13,7 @@ width: 98%;
 
 /* Generic stuff */
 #timeline {
-  padding: 10px 0;
+  padding: 5px 0;
   /* background: #f7f7f7; */
   border-top: 0px solid rgba(191, 191, 191, 0.4);
   border-bottom: 0px solid rgba(191, 191, 191, 0.4);
@@ -33,7 +33,7 @@ width: 98%;
 #timeline h3 {
   margin-top: 0.1em;
   margin-bottom: 0.1em;
-  color: white;
+  color: black;
 }
 
 
