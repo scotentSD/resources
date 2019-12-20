@@ -17,8 +17,8 @@
 **Markdown** is a super simple way of creating structured content
 You edit a Markdown file such as **readme.md** using teh following syntax:
 
-- ```**#**```   symbol for top level heading.
-- ```**##**```   for second level heading.
+- **```#```**   symbol for top level heading.
+- **```##```**   for second level heading.
 - **```###```**   for tertiary heading.
 - **```-```**   symbol for a list item.
 - **```[name of link](url of link)```** to create links.
