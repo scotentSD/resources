@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 title: Github Pages Resources
 description: Code, HowTo, Help etc...
 excerpt_separator: "<!--more-->"
-baseurl: "/resources"
+baseurl: "/resources/"
