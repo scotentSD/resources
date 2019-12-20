@@ -18,12 +18,12 @@
 You edit a Markdown file such as **readme.md** using teh following syntax:
 
 
-- ~#~   symbol for top level heading
+- ```#```   symbol for top level heading
 - ```##```   for second level heading
-- **~###~**   for tertiary heading
-- **~-~**   symbol for a list item
-- **~[name of link](url of link)~** to create links`
-- Put files in a **~/files~** folder off of the root of each repository
+- **```###```**   for tertiary heading
+- **```-```**   symbol for a list item
+- **```[name of link](url of link)```** to create links`
+- Put files in a **```/files```** folder off of the root of each repository
 - Reference them with links like: **~[personas](/files/personas.pdf)~**`
 - When you update anything you will have to **Commit** it to the **Repository**
 - At the bottom of whatever you are editing you will see a **Commit Changes** section. Use this to **Commit Changes**. This will be greyed out until any changes are made
