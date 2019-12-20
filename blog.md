@@ -69,6 +69,7 @@ Then add content using the following headings: ]
 
 ## Timeline page
 The timeline page will consume the posts and use the **Front Matter** variables to insert the metadata into the timeline page using **liquid** calls.
+Timeline pages in all repositories, call the **timeline.css** from this repository.
 
 ```
 <link rel="stylesheet" href="https://scotentsd.github.io/resources/timeline.css?ver=15">
