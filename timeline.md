@@ -18,9 +18,9 @@
       <li class="timeline_card">
           <div class="date_{{post.type}}" > {{ post.display_date }} </div>
           <!-- <br>  -->
-          <div class="type_{{post.type}}" > </div>  
+          <div class="title_{{post.type}}" >{{post.title}} </div>  
         </div>
-       </a>
+
         <div class="timeline_body">
 
            {{ post.excerpt }}
