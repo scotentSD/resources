@@ -13,7 +13,9 @@ The Blog page has code to display any posts in the posts folder
 
 ```
 
+
 It uses **liquid** to inject variables into the code like this:  ``` {% raw %}{{variablename}}{% endraw %}```
+
 
 ## Posts
 Put a markup file in the posts folder and name it in the format
