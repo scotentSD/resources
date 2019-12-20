@@ -16,4 +16,4 @@
 # Jekyll Blog stuff
 These sites use the blog post functionality primarily to create a timeline.
 
-- [Read more about Blog & Post code](blog)
+- [Read more about Blog & Post code](blog)  
