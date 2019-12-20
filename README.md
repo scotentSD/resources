@@ -1,5 +1,5 @@
 
-#Jekyll for Github Pages
+# Jekyll for Github Pages
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 **Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
@@ -16,7 +16,7 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 
 [Read more about Jekyll](/jekyll/)
 
-#Jekyll Blog stuff
+# Jekyll Blog stuff
 These sites use the blog post functionality primarily to create a timeline.
 
 [Read more about Blog & Post code](/blog/)
