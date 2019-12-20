@@ -23,11 +23,7 @@
         </div>
 
         <div class="timeline_body">
-
            {{ post.excerpt }}
-
-
-
         </div>
         <!-- <span class="initials">{{ post.initials }}</span> -->
      </li>
