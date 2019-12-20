@@ -29,8 +29,6 @@ You edit a Markdown file such as **readme.md** using teh following syntax:
 - At the bottom of whatever you are editing you will see a **Commit Changes** section. Use this to **Commit Changes**. This will be greyed out until any changes are made
 ```
 
-
-
 [Bais cMarkdown Primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Jekyll Blog stuff
