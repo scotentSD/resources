@@ -17,7 +17,7 @@
 **Markdown** is a super simple way of creating structured content
 You edit a Markdown file such as **readme.md** using teh following syntax:
 
-```
+
 - **~#~**   symbol for top level heading
 - **~##~**   for second level heading
 - **~###~**   for tertiary heading
@@ -27,7 +27,7 @@ You edit a Markdown file such as **readme.md** using teh following syntax:
 - Reference them with links like: **~[personas](/files/personas.pdf)~**`
 - When you update anything you will have to **Commit** it to the **Repository**
 - At the bottom of whatever you are editing you will see a **Commit Changes** section. Use this to **Commit Changes**. This will be greyed out until any changes are made
-```
+
 
 [Bais cMarkdown Primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
