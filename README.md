@@ -11,6 +11,7 @@
 - It's easy to try out, you can just delete your forked repository if you don't like it
 
 [Read more about Jekyll](jekyll)
+[Read this excellent Jekyll Cheatsheet when you ar eready](https://devhints.io/jekyll)
 
 # Jekyll Blog stuff
 These sites use the blog post functionality primarily to create a timeline.
