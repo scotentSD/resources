@@ -10,9 +10,9 @@
 - If you're on Windows, this will make setting up Jekyll a lot easier
 - It's easy to try out, you can just delete your forked repository if you don't like it
 
-[Read more about Jekyll](jekyll/)
+[Read more about Jekyll](jekyll)
 
 # Jekyll Blog stuff
 These sites use the blog post functionality primarily to create a timeline.
 
-[Read more about Blog & Post code](blog/)
+[Read more about Blog & Post code](blog)
