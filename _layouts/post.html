@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include meta.html %}
+    <title>{% if post.title  %}{{ post.title }} – {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://scotentsd.github.io/assets/css/style.css">
+    <link rel="icon" href="https://scotentsd.github.io/images/favicon.ico">
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner clearfix">
+          <a href="{{site.url}}/{{site.github.repository_name }}">
+            <h1 id="project_title">Enter Name of project here</h1>
+          </a>
+          <!-- <h2 id="project_tagline"></h2> -->
+          {% include nav.html %}
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {% if page.return_url %}
+        <p><a href={{page.return_url}}>&lt; Back to Timeline</a></p>
+        {% endif %}
+        <h1 id="post_title">{{page.title }}{% if page.type_of_event %} - {{page.type_of_event}}{% endif %}</h1>
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <a href="http://scotentsd.github.io">
+            <img class="imgFooter" alt="Design in the open logo" src="https://scotentsd.github.io/images/designintheopen-white.png" style="width:200px; border:none;">
+        </a>
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <br />
+      </footer>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>
