@@ -38,28 +38,37 @@ width: 98%;
 
 /* for the key */
 #timeline  .colour_key {
-
     margin-bottom: 1.8em;
-    border: 0px solid #000;
-    padding: 0px;
+    border: 1px solid #333;
+    padding: 10px 0 ;
     max-width: 94%;   /*  this is for mobile - same as timeline-card */
-
     z-index: 2;
-
     margin-left: 0.2em;
     font-size: 0.8em;
     line-height: 0.8em;
+  background-color: #fff
 }
+
 #timeline .colour_key_heading {
     text-align: left;
     font-weight: bold;
 }
 #timeline  .colour_key p {
     margin-bottom: 0em;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    padding-left: 1.5em;
 }
 
+@media (min-width: 480px) {  /*  for tablets */
+  #timeline .colour_key {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 720px) { /*  for big screens  */
+  #timeline .colour_key {
+    max-width: 40%;
+  }
+}
 
 /* UL that hosts teh Post Cards */
 .timeline_ul{
