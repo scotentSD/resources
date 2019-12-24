@@ -40,13 +40,16 @@ width: 98%;
 #timeline  .colour_key {
     margin-bottom: 1.8em;
     border: 1px solid #333;
-    padding: 10px 0 ;
+    padding-bottom: 0px;
     max-width: 94%;   /*  this is for mobile - same as timeline-card */
-    z-index: 2;
-    margin-left: 0.2em;
-    font-size: 0.8em;
     line-height: 0.8em;
-  background-color: #fff
+    background-color: #fff;
+    margin: auto; /* to center the block */
+    margin-bottom: 0.4em; /* to still leave some space under the block */
+   /*  z-index: 2;  don't think it's needed */
+   /*  margin-left: 0.2em; should be auto so it's centered */
+   /* font-size: 0.8em;  removed, was hard to read */
+
 }
 
 #timeline .colour_key_heading {
@@ -81,9 +84,10 @@ width: 98%;
   position: relative;
   display: block;
   margin-left: 0.2em;
-  margin-bottom: 0.4em;
+  margin: auto; /* to center the block */
+  margin-bottom: 0.4em; /* leave some sapce under the block */
   max-width: 94%;
-  z-index: 2;
+ /* z-index: 2; don't think it's needed */ 
   padding-bottom: 0.8em;
 }
 .timeline_head {  padding-left: 0.2em;
