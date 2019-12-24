@@ -36,7 +36,6 @@ width: 98%;
   color: black;
 }
 
-
 /* for the key */
 #timeline  .colour_key {
 
@@ -56,10 +55,9 @@ width: 98%;
     font-weight: bold;
 }
 #timeline  .colour_key p {
-    margin-bottom: 0.0em;
-    margin-bottom: 0.0em;
-    padding-top: 0.0em;
-    padding-bottom: 0.0em;
+    margin-bottom: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
 }
 
 
@@ -74,7 +72,6 @@ width: 98%;
   position: relative;
   display: block;
   margin-left: 0.2em;
-  margin-bottom: 0.4em;
   margin-bottom: 0.4em;
   max-width: 94%;
   z-index: 2;
@@ -112,11 +109,11 @@ width: 98%;
 
 
 /* Set the colours for the post .type_ers */
-#timeline .lab { background-color: #ce43eb;} /* purple lab research */
-#timeline .partner { background-color: #935300;} /* brown for partners */
-#timeline .online { background-color: #4d92eb;} /* blue online research */
-#timeline .other { background-color: #3ee9d1;} /* greenish blue - events */
-#timeline .a11y { background-color: #f5c44b;} /* greenish blue - events */
+#timeline .lab { background-color: #9212ad;} /* purple lab research - was #ce43eb, but flagged by a11y, now AAA */
+#timeline .partner { background-color: #824a00;} /* brown for partners - was #935300, but flagged by a11y, now AAA */
+#timeline .online { background-color: #0f55aa;} /* blue online research - was #4d92eb but flagged by a11y, now AAA */
+#timeline .other { background-color: #3ee9d1;} /* greenish blue - other events */
+#timeline .a11y { background-color: #f5c44b;} /* yellow for a11y */
 
 /* Set teh TYPE text for the post .type_ers  */
 
@@ -143,7 +140,7 @@ width: 98%;
 .title_a11y { color: black; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 
 
-/*  Set the text colour for teh post DATE */
+/*  Set the text colour for the post DATE */
 .date_lab { color: white; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 .date_partner { color: white; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 .date_online { color: white; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
@@ -163,7 +160,7 @@ width: 98%;
 
 
 .issue {
-    color: red;
+    color: #d4351c;  /* was red and being flagged for poor contrast with wave plugin - the new value is the GDS error red */
     font-weight: bold;
 }
 
