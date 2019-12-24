@@ -20,10 +20,10 @@ width: 98%;
   font-family: Roboto;
 }
 #timeline h1 {
-  /* text-align: center; the rest of the website and heading are not centered */
+  text-align: center;
   font-size: 36px; /* was 3em  change to be consistent with rest of the pages */
   font-weight: 700; /* was 200 changed for consistency */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 @media (max-width: 480px) {
 #timeline h1 {
@@ -44,14 +44,13 @@ width: 98%;
 
 /* for the key */
 #timeline  .colour_key {
-    margin-bottom: 1.8em;
     border: 1px solid #333;
     padding-bottom: 1em;
     max-width: 94%;   /* same as timeline-card */
     line-height: 0.8em;
     background-color: #fff;
     margin: auto; /* to center the block */
-    margin-bottom: 0.4em; /* to still leave some space under the block */
+    margin-bottom: 0.8em; /* to still leave some space under the block */
    /*  z-index: 2;  don't think it's needed */
    /*  margin-left: 0.2em; should be auto so it's centered */
    /* font-size: 0.8em;  removed, was hard to read */
@@ -179,4 +178,8 @@ width: 98%;
     margin-top: 0em;
     padding-top: 0em;
 
+}
+
+#main_content {
+  padding-top: 10px; /* added because it look like a lot of space on the timeline above the h1 */ 
 }
