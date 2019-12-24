@@ -2,17 +2,12 @@
 <html lang="en">
 
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
     {% include meta.html %}
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.tittle }} – {{ site.description }}</title>
     <link rel="stylesheet" type="text/css" media="screen" href="https://scotentsd.github.io/assets/css/style.css">
     <link rel="icon" href="https://scotentsd.github.io/images/favicon.ico">                                                                                                                 
   </head>
 
-
-  
   <body>
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -21,12 +16,7 @@
             <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           </a>
           <h2 id="project_tagline">Designing in the open</h2>
-          <nav>
-            <a href="https://scotentsd.github.io/">Home</a>
-            <a href="https://scotentsd.github.io/about">About</a>
-            <a href="https://scotentsd.github.io/blog">Blog</a>
-            <a href="https://scotentsd.github.io/help">Help</a>
-          </nav>
+        {% include nav.html %}
         </header>
     </div>
 
