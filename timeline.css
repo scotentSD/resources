@@ -20,11 +20,17 @@ width: 98%;
   font-family: Roboto;
 }
 #timeline h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 200;
+  /* text-align: center; the rest of the website and heading are not centered */
+  font-size: 36px; /* was 3em  change to be consistent with rest of the pages */
+  font-weight: 700; /* was 200 changed for consistency */
   margin-bottom: 20px;
 }
+@media (max-width: 480px) {
+#timeline h1 {
+      font-size: 26px; /* on small screen */
+      }
+  }
+
 #timeline h2 {
   margin-top: 0.4em;
   margin-bottom: 0.1px;
