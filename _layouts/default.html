@@ -4,7 +4,7 @@
   <head>
     {% include meta.html %}
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.tittle }} – {{ site.description }}</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="https://scotentsd.github.io/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ 'https://scotentsd.github.io/assets/css/style.css?v=' | append: site.github.build_revision}}">
     <link rel="icon" href="https://scotentsd.github.io/images/favicon.ico">                                                                                                                 
   </head>
 
