@@ -11,7 +11,7 @@
 - It's easy to try out, you can just delete your forked repository if you don't like it
 
 - [Read more about Jekyll](jekyll)
-- [Read this excellent Jekyll Cheatsheet when you ar eready](https://devhints.io/jekyll)
+- [Read this excellent Jekyll Cheatsheet when you are ready](https://devhints.io/jekyll)
 
 # Markdown
 **Markdown** is a super simple way of creating structured content
