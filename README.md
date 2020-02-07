@@ -30,9 +30,6 @@ You edit a Markdown file such as **readme.md** using teh following syntax:
 
 
 
-[Bais cMarkdown Primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Basic Markdown Primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-# Jekyll Blog stuff
-These sites use the blog post functionality primarily to create a timeline.
 
-- [Read more about Blog & Post code](blog)  
