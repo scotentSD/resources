@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
   <head>
     {% include meta.html %}
     <title>{% if page.title  %}{{ page.title }} – {% endif %}{{ site.title }}</title>
@@ -15,7 +15,7 @@
           <a href="{{site.url}}/{{site.github.repository_name }}">
             <h1 id="project_title">{{site.title}}</h1>
           </a>
-          <!-- <h2 id="project_tagline"></h2> -->
+          <h2 id="project_tagline">{{ site.description }}</h2>
           {% include nav.html %}
         </header>
     </div>
@@ -23,9 +23,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {% if page.return_url %}
-        <p><a href={{page.return_url}}>&lt; Back to Timeline</a></p>
-        {% endif %}
+        {% include breadcrumbs.html %}
         <h1 id="post_title">{{page.title }}{% if page.type_of_event %} - {{page.type_of_event}}{% endif %}</h1>
         {{ content }}
       </section>
