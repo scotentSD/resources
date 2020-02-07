@@ -33,3 +33,5 @@ You edit a Markdown file such as **readme.md** using teh following syntax:
 [Basic Markdown Primer](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
+<br>
+<div>Last updated: {{site.time | date_to_string}}</div>
