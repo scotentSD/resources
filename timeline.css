@@ -90,7 +90,7 @@ width: 98%;
   padding-left: 1.0em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  text-transform: uppercase;
+  /*text-transform: uppercase; // not good for Dyslexic users */
 }
 .timeline_body {
   background: #fff;
@@ -121,15 +121,16 @@ width: 98%;
 #timeline .other { background-color: #3ee9d1;} /* greenish blue - other events */
 #timeline .a11y { background-color: #f5c44b;} /* yellow for a11y */
 
-/* Set teh TYPE text for the post .type_ers  */
+/* Set the TYPE text for the post .type_ers  */
 
 
 
-.type_lab::after {  content : "LAB TESTING";}
-.type_a11y::after {  content : "ACCESSIBILITY";}
-.type_partner::after {  content : "PARTNER CO-CREATION AND CO-DESIGN";}
-.type_online::after {  content : "ONLINE RESEARCH AND TESTING";}
-.type_other::after {  content : "EVENTS, F2F AND OTHER ACTIVITIES";}
+.type_lab::after {  content : "Lab testing";}
+.type_a11y::after {  content : "Accessibility";}
+.type_partner::after {  content : "Partner co-creation and co-design";}
+.type_online::after {  content : "Online research and testing";}
+/* .type_other::after {  content : "EVENTS, F2F AND OTHER ACTIVITIES";} */
+.type_other::after {  content : "Other activities";}
 
 /*  Set the text collour for post TYPE */
 .type_lab { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.2em;}
