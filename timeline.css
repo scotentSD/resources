@@ -132,12 +132,15 @@ width: 98%;
 /* .type_other::after {  content : "EVENTS, F2F AND OTHER ACTIVITIES";} */
 .type_other::after {  content : "Other activities";}
 
+.type_highlighted::after {  content : "Highlighted research summary";}
+
 /*  Set the text collour for post TYPE */
 .type_lab { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.2em;}
 .type_partner { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.2em;}
 .type_online { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 .type_other { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 .type_a11y { color: black; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.4em;}
+.type_highlighted { color: white; font-weight: 900; font-size: 1.1em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 
 /*  Set the text collour for post TITLE */
 .title_lab { color: white; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.2em;}
@@ -145,7 +148,7 @@ width: 98%;
 .title_online { color: white; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 .title_other { color: black; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 .title_a11y { color: black; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.4em;}
-
+.title_highlighted { color: white; font-weight: 900; font-size: 1.4em; padding-bottom: 0.0em;  padding-top:-0.4em;}
 
 /*  Set the text colour for the post DATE */
 .date_lab { color: white; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
@@ -153,6 +156,8 @@ width: 98%;
 .date_online { color: white; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 .date_other { color: black; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 .date_a11y { color: black;  font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
+
+.date_highlighted { color: black;  font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 
 /* timline card body */
 #timeline .timeline-card .timeline_body p {
