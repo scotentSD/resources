@@ -133,7 +133,6 @@ width: 98%;
 .type_online::after {  content : "Online research and testing";}
 /* .type_other::after {  content : "EVENTS, F2F AND OTHER ACTIVITIES";} */
 .type_other::after {  content : "Other activities";}
-
 .type_highlighted::after {  content : "Highlighted research summary";}
 
 /*  Set the text collour for post TYPE */
@@ -159,7 +158,7 @@ width: 98%;
 .date_other { color: black; font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 .date_a11y { color: black;  font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 
-.date_highlighted { color: black;  font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
+.date_highlighted { color: white;  font-weight: 900; font-size: 0.9em; padding-top: 0.1em;   clear: both;}
 
 /* timline card body */
 #timeline .timeline-card .timeline_body p {
