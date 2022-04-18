@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>SE Competitor CX Measures</title>
+<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/timeline.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<style>
+    #head {
+      background-color: linen;
+      margin-bottom: 0px;
+      border-bottom: 0px;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    #nps {
+        background-color: greenyellow;
+        margin-top: 0px;
+        border-top: 0px;
+        text-align: center;
+    }
+
+    #csat {
+        background-color: mediumvioletred;
+        text-align: center;
+    }
+    
+    #ces {
+        background-color: lightcoral;
+        text-align: center;
+    }
+    
+    #fcr {
+        background-color: lightseagreen;
+        text-align: center;
+    }
+    
+    #other {
+        background-color: lightgoldenrodyellow;
+        text-align: center;
+    }
+
+    #containerNPS {
+
+    }
+
+
+    </style>
+
+</head>
+<body>
+
+<h1 id="head">SE Competitor CX Measures</h1>
+<h2 id="nps">NPS</h2>
+<div id="containerNPS"></div>
+
+
+
+
+
+<script>
+// Create the chart
+Highcharts.chart('containerNPS', {
+chart: {
+    type: 'column'
+  },
+title: {
+    text: 'Net Promoter Score'
+},
+
+data: {
+    googleAPIKey: 'AIzaSyCPAZHUmIUMNUWL5TQuT2Db_w3wvvEAito',
+    googleSpreadsheetKey: '10ilplKLLYGecmUFpmk3JUOjuft7rWL45p8QrU1WeHWQ',
+    error: console.error
+}
+
+});
+
+</script>
+
+<!--
+<script>
+    // Create the chart
+    Highcharts.chart('containerNPSspread', {
+    chart: {
+        type: 'line'
+      },
+    title: {
+        text: 'Net Promoter Score - Spread'
+    },
+    
+    data: {
+        googleAPIKey: 'AIzaSyCPAZHUmIUMNUWL5TQuT2Db_w3wvvEAito',
+        googleSpreadsheetKey: '10ilplKLLYGecmUFpmk3JUOjuft7rWL45p8QrU1WeHWQ',
+        error: console.error
+    }
+    
+    });
+    
+    </script>
+-->
+
+</body>
+</html>
+
+
